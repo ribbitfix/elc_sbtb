@@ -1,5 +1,10 @@
 - data.people.people.each do |char|
   %p 
-    = char.nick_name 
+    = char.name
+  %p
     = char.full_name 
-    = char.long_desc
+  %p  
+    = char.description
+  %p
+    = char.img_url
+

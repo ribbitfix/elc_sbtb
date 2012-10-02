@@ -59,6 +59,17 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+#MAGIC
+
+ignore "/about/template.html"
+
+
+data.people.people.each do |person|
+  page "/about/#{person.name}.html", :proxy => "/about/template.html" do
+    @char = person
+  end
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -83,4 +94,6 @@ configure :build do
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
+
+
 end

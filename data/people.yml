@@ -1,7 +1,42 @@
 people:
-  - :nick_name: Zack
-    :full_name: Zachary Morris
-    :long_desc: blah blah blah.
-  - :nick_name: Screech
-    :full_name: Samuel Powers
-    :long_desc: words words words.
+  - name: Zack
+    full_name: Zachary Morris
+    quote: "School is great for killing time between weekends."
+    description: "blah"
+    img_url: "zack.jpg"
+    video_url: stuff_goes_here
+
+  - name: Screech
+    full_name: Samuel Powers
+    description: "blah"
+    quote: "Two Beldings in one building one of whom is balding!"
+    img_url: "screech.jpg"
+    video_url: stuff_goes_here
+
+  - name: Slater
+    full_name: Albert Clifford Slater
+    description: "blah"
+    quote: "Buddy Bands!  They work!"
+    img_url: "slater.jpg"
+    video_url: stuff_goes_here
+
+  - name: Kelly
+    full_name: Kelly Kapowski
+    description: "blah"
+    quote: "Zack Morris I am a forgiving person but you are going to need a lot of goodwill to overcome this!"
+    img_url: "kelly.jpg"
+    video_url: stuff_goes_here
+
+  - name: Lisa
+    full_name: Lisa Turtle
+    description: "blah"
+    quote: "Screech, would you like to rejoin the human race?"
+    img_url: "lisa.jpg"
+    video_url: stuff_goes_here
+
+  - name: Jessie
+    full_name: Jessie Spano
+    description: "blah"
+    quote: "If any of you sweeties dares bid on my Slater I'll hunt you down in the street like a rabid dog."
+    img_url: "jessie.jpg"
+    video_url: stuff_goes_here
