@@ -111,8 +111,19 @@ ul {
     width:16%;
 }
 
+.left {
+    float: left;
+}
 
+.season {
+   background: pink;
+   padding: 7px;
 
+}
+
+.season p {
+    margin-left: 250px;
+}
 
 
 
