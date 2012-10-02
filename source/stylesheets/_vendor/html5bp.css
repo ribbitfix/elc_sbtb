@@ -93,7 +93,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+} 
 
+#container {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+
+#nav li {
+    float: left;
+    display:block;
+    width:16%;
+}
 
 
 
@@ -296,3 +312,5 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
