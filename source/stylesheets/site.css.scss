@@ -8,3 +8,51 @@
 *= require "_layout/grid"
 
 */
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+} 
+
+#container {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    background: #8888EE;
+}
+
+#nav {
+    background: #00FF99;
+    padding-left: 35px;
+}
+
+#nav li {
+    float: left;
+    display:block;
+    width:16%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.season {
+    background: pink;
+    padding: 7px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.season p {
+    margin-left: 250px;
+    background: #DDDD00;
+    border-style: solid;
+    border-width: 2px;
+    text-align: left;
+}
+
+
+
