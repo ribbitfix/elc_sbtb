@@ -8,10 +8,23 @@
 *= require "_layout/grid"
 
 */
-$main-color : #DDEECC;
-$nav-color : #00FF99;
-$season-color : #9988FF;
-$season-p-color : #EE44EE;
+//$main-color : #DDEECC;
+//$nav-color : #00FF99;
+//$season-color : #9988FF;
+//$season-p-color : #EE44EE;
+
+$gray-color: #C7BFAB;
+$dark-color: #8F7B5D;
+$green-color: #22FF22;
+$yellow-color: #EECA09;
+$orange-color: #F8713C;
+$blue-color: #00ABBB;
+
+$main-color: #FFFFFF;
+$nav-color: $green-color;
+$season-color: $blue-color;
+$season-p-color: $blue-color;
+$border-color: $dark-color;
 
 ul {
     list-style-type:none;
@@ -24,9 +37,14 @@ ul {
 }
 
 #nav li {
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
+    &:hover{
+      background: $orange-color;
+    }
 }
+
+
 
 .left {
     float: left;
@@ -38,14 +56,17 @@ ul {
 
 .season {
     background: $season-color;
-    border-style: solid;
-    border-width: 3px;
+    //border-style: solid;
+   // border-width: 3px;
+
+   border-top: 1px solid $border-color;
+   padding: 1em;
 }
 
 .season p {
-    margin-left: 250px;
     background: $season-p-color;
     text-align: left;
+    margin: 0em 0em;
 }
 
 

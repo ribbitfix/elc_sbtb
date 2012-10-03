@@ -29,12 +29,10 @@
         
       .nav#nav
         %ul
-          %li Zack
-          %li Slater
-          %li "Screech"
-          %li Kelly
-          %li Jessie
-          %li Lisa
+        -data.people.people.each do |person|
+
+          %a{:href => "/about/#{person.name.downcase}.html"} 
+            %li= person.name
 
       %div{:role => "main", :class => "main"}= yield
 

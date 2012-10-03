@@ -2,7 +2,7 @@
 
 $total-columns  : 12;
 $column-width   : 4em;
-$gutter-width   : 0em;
+$gutter-width   : 1em;
 $grid-padding   : 0em; //$gutter-width;
 
 $break          : 12;
@@ -18,13 +18,36 @@ $break          : 12;
   @include span-columns(12); 
 }
 
-.nav li {
-  @include span-columns(2);
+
+@include with-grid-settings(12,4em,0em,0em) {
+	
+	.nav li {
+ 	 @include span-columns(2);
+	}
+}
+.season {
+
+  @include span-columns(12);
+ // @include squish(0.5,0.5);
+	}
+
+
+.season_image{
+	@include span-columns(1, 4);
+   padding: 0px;
+
 }
 
-.season {
-  @include span-columns(11);
-  @include squish(0.5,0.5);
+.season_description{
+	@include span-columns(2, 4);
+   padding: 0 1em;
+
+}
+
+.season_fun_links{
+	@include span-columns(1 omega,4);
+	padding: 0 1em;
+
 }
 
 @include at-breakpoint($break) {

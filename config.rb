@@ -65,7 +65,7 @@ ignore "/about/template.html"
 
 
 data.people.people.each do |person|
-  page "/about/#{person.name}.html", :proxy => "/about/template.html" do
+  page "/about/#{person.name.downcase}.html", :proxy => "/about/template.html" do
     @char = person
   end
 end
