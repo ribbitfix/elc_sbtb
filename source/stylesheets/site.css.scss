@@ -13,60 +13,45 @@
 //$season-color : #9988FF;
 //$season-p-color : #EE44EE;
 
-$gray-color: #C7BFAB;
-$dark-color: #8F7B5D;
-$green-color: #22FF22;
-$yellow-color: #EECA09;
-$orange-color: #F8713C;
-$blue-color: #00ABBB;
-
-$main-color: #FFFFFF;
-$nav-color: $green-color;
-$season-color: $blue-color;
-$season-p-color: $blue-color;
-$border-color: $dark-color;
+@import "defs";
 
 ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-} 
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
 
 #nav {
-    background: $nav-color;
+  background: $nav-color;
+
+  li {
+      padding-top: 20px;
+      text-align: center;
+      &:hover{ background: $orange-color; }
+  }
 }
-
-#nav li {
-    padding-top: 20px;
-    text-align: center;
-    &:hover{
-      background: $orange-color;
-    }
-}
-
-
 
 .left {
-    float: left;
+  float: left;
 }
 
-.main {
+.main-container {
   background: $main-color;
 }
 
 .season {
-    background: $season-color;
-    //border-style: solid;
-   // border-width: 3px;
+  background: $season-color;
+  //border-style: solid;
+  // border-width: 3px;
 
-   border-top: 1px solid $border-color;
-   padding: 1em;
-}
+  border-top: 1px solid $border-color;
+  padding: 1em;
 
-.season p {
+  p {
     background: $season-p-color;
     text-align: left;
     margin: 0em 0em;
+  }
 }
 
 

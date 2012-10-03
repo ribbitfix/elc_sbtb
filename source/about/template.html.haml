@@ -1,8 +1,12 @@
-%p 
-  = @char.name
-%p
-  = @char.full_name 
-%p  
-  = @char.description
-%p
-  = @char.img_url
+%h1= @char.name
+
+%h2= @char.full_name
+
+%img= @char.img_url
+
+//%p= @char.video_url
+<iframe width="420" height="315" src="http://www.youtube.com/embed/3nHMth6Ut0s" frameborder="0" allowfullscreen></iframe>
+
+%p#quote= @char.quote
+
+%p#char_desc= @char.description

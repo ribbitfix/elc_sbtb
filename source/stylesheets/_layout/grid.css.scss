@@ -9,18 +9,18 @@ $break          : 12;
 
 @include border-box-sizing;
 
-.main {
+.main-container {
   @include container($total-columns, $break);
   //@include susy-grid-background;
 }
 
 .nav {
-  @include span-columns(12); 
+  @include span-columns(12);
 }
 
 
 @include with-grid-settings(12,4em,0em,0em) {
-	
+
 	.nav li {
  	 @include span-columns(2);
 	}
