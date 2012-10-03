@@ -23,11 +23,11 @@
     = stylesheet_link_tag "pages"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
-    #container
+    .main
 
       %header
-
-      #nav
+        
+      .nav#nav
         %ul
           %li Zack
           %li Slater
@@ -35,7 +35,6 @@
           %li Kelly
           %li Jessie
           %li Lisa
-        .clearfix
 
       %div{:role => "main", :class => "main"}= yield
 
