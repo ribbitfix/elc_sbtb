@@ -26,13 +26,13 @@
     .main-container
 
       %header
-        %img{src: 'images/banner.jpg'}
+        %img{src: '/images/banner.jpg'}
       .nav#nav
         %ul
         -data.people.people.each do |person|
 
-          %a{:href => "/about/#{person.name.downcase}.html"}
-            %li= person.name
+          %a{:class => person.name.downcase, :href => "/about/#{person.name.downcase}.html"}
+            %li{:class => person.name.downcase}= person.name
 
       %div{:role => "main", :class => "main"}= yield
 

@@ -22,17 +22,35 @@ ul {
 }
 
 #nav {
-  background: $nav-color;
-
+      a{
+        color: $blue-color;
+        font-family: "Comic Sans MS";
+        font-size: 20pt;
+        &:hover{color: $green-color;}
+      }
   li {
-      padding-top: 20px;
+      text-color:red;
+      padding: 20px 0;
       text-align: center;
-      border-left: 1px solid $dark-color;
-      border-right: 1px solid $dark-color;
-      &:hover{ background: $orange-color; }
+      &:hover{
+        background-image:url('/images/heart.gif');
+        //background-image: url('/images/screech.png');
+        background-size: 100%  100%;
+      }
+
+  }
+  .screech{
+
+    &:hover{
+      text-indent:-2000px;
+      background-image:url('/images/screech.png');
+      background-size: 100% 100%;
+    }
 
   }
 }
+
+
 
 .left {
   float: left;
