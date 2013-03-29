@@ -1,5 +1,9 @@
+- data.season.season.each do |season|
 
-.season
-	%img.season_image(src="images/sbtb.jpg")
-	%p.season_description Wes anderson vinyl banksy you probably haven't heard of them, vice twee retro flexitarian jean shorts. Ennui art party sriracha, kale chips squid swag ethical forage letterpress vice. Godard etsy swag gluten-free tumblr. Street art fap kogi flexitarian master cleanse gentrify lomo biodiesel, keytar kale chips butcher banksy twee whatever. Messenger bag farm-to-table post-ironic Austin hella polaroid, whatever bespoke. Polaroid gluten-free master cleanse cardigan, brooklyn art party mumblecore helvetica seitan retro jean shorts sriracha. Williamsburg 3 wolf moon iphone, fanny pack odd future PBR cred salvia messenger bag DIY farm-to-table flexitarian whatever carles kogi.
-	%p.season_fun_links Oh my god you guys, it still IS so super good!
+  .season
+    %img.season_image{src: season.img_link}
+    %p.season_description= season.description
+    %p.season_fun_links
+      %a{:href => season.amazon_link} Buy on Amazon.
+      %a{:href => season.fun_link} Fun button!
+      stuff

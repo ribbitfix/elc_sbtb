@@ -1,0 +1,26 @@
+season:
+  - year: 1
+    description: "This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude."
+    amazon_link: "http://amazon.com"
+    fun_link: "http://zombo.com"
+    img_link: "/images/sbtb.jpg"
+
+  - year: 2
+    description: "This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude."
+    amazon_link: "http://amazon.com"
+    fun_link: "http://zombo.com"
+
+  - year: 3
+    description: "This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude."
+    amazon_link: "http://amazon.com"
+    fun_link: "http://zombo.com"
+
+  - year: 4
+    description: "This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude."
+    amazon_link: "http://amazon.com"
+    fun_link: "http://zombo.com"
+
+  - year: 5
+    description: "This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude. This season totally rocks because it's radical, dude."
+    amazon_link: "http://amazon.com"
+    fun_link: "http://zombo.com"
